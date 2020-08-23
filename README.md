@@ -1,5 +1,5 @@
-# netflix-auto-skip-intro
-Chrome extension to automate skip intro in Netflix shows
+# hilite url
+Chrome extension to share urls with highlighted text
 
 ## how to install
 1. Download and extract the zip file
