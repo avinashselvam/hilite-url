@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Hilite</title>
+    <style>
+        p{
+            font-size: 10px;
+            margin: 6px 0;
+            color: gray;
+        }
+
+        body {
+            text-align: left;
+            width: 300px;   
+        }
+
+        input {
+            flex: 3;
+            padding: 8px 8px;
+            border: none;
+            border-bottom: 1px solid gray;
+            background-color: rgba(100,100,100,0.1);
+        }
+        
+        button {
+            flex: 1;
+            cursor: pointer;
+            border: none;
+            background: white;
+            padding: 8px 16px;
+            margin: 0 4px;
+            color: blue;
+            border-radius: 3px;
+        }
+
+        button:hover {
+            background: rgb(66, 133, 244, 0.3);
+        }
+
+        input:focus{
+            outline: none;
+        }
+
+        .container {
+            display: flex;
+        }
+
+    </style>
+</head>
+<body>
+    
+    <div class="container">
+        <input id="hilite-url" />
+        <button id="copy">Copy</button>
+    </div>
+    <p>Hilite URL copied to clipboard</p>
+    <script src="popup.js"></script>
+</body>
+</html>
